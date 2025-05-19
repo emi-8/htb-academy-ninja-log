@@ -1,41 +1,35 @@
-# 🧠 HTB Academy Ninja Log
+# 🧠 HTB Writeups & Lab Notes
 
-Welcome to my learning journey through [Hack The Box Academy](https://academy.hackthebox.com/)!  
-This repo tracks my progress, notes, and challenge writeups — with minimal spoilers and maximum curiosity 🥷💻
-
----
-
-## 🔍 Current Path
-
-**🛡️ Path:** Bug Bounty Hunter  
-**🎯 Goal:** Master web application security, proxies, encoding/decoding, and recon — one module at a time.
+This repo contains personal writeups for Hack The Box labs and Academy content — focused on learning, experimentation, and documenting both wins and mistakes.
 
 ---
 
-## 📁 Writeups
+## 🎓 Academy Labs
 
-| Date | Module | Section | Notes |
-|------|--------|---------|-------|
-| 2025-05-19 | [Using Web Proxies: Encoding/Decoding](https://academy.hackthebox.com/module/110/section/1052) | [Writeup](academy/decoding-ninja-may19/decoding-ninja-may19.md) | ✅ Solved with 4x Base64 + 1x URL decoding. Flag camouflaged! 🐾 |
-
-More writeups coming soon...
+- [Decoding Ninja (May 19)](academy/decoding-ninja-may19/decoding-ninja-may19.md)
 
 ---
 
-## 🐾 Kiki the Cat Supervisor
+## 🧪 HTB Labs
 
-Every flag is purr-approved.  
-Every decode is observed.  
-Every nap is deserved.
+### 🐣 Starting Point
+- [Three (WIP)](lab/three/three.md)
 
----
-
-## ⚠️ Disclaimer
-
-All content is created as part of my personal educational journey.  
-Flags and solutions are intentionally obfuscated or excluded to respect HTB’s [Terms of Use](https://www.hackthebox.com/terms) and to keep the learning spirit alive.
 
 ---
 
-🧑‍💻 *Maintained by: @emi-8*  
-🐱 *Watched over by: Kiki, Chief Cyber Supervisor*
+## 🐾 Cat Assistant Logs
+
+This repo is co-managed by a certified Cat Assistant™ who:
+- Typed encrypted recon commands
+- Supervised ffuf scans
+- Helped detect missing wordlist entries (by stepping on keyboard)
+- Approved shells by purring when `www-data` appeared
+
+---
+
+## 💡 Notes
+
+- 🧠 Writeups may contain mistakes or “learning moments”
+- ⚠️ Only boxes that are public/retired/allowed are included
+- 📸 Screenshots are stored alongside each writeup in `screenshots/` folders
