@@ -7,7 +7,8 @@
 ---
 
 ## 🧠 Challenge Overview
-The challenge provides a deeply encoded string. The goal is to recognize the encoding patterns and decode it step-by-step using tools like CyberChef.
+The goal is to recognize the encoding patterns and decode it step-by-step using Burp Suite Decoder, as demonstrated in the module.
+(You could also use tools like CyberChef to experiment with alternate decoding paths.)
 
 **Input:**
 VTJ4U1VrNUZjRlZXVkVKTFZrWkdOVk5zVW10aFZYQlZWRmh3UzFaR2NITlRiRkphWld0d1ZWUllaRXRXUm10M1UyeFNUbVZGY0ZWWGJYaExWa1V3ZVZOc1VsZGlWWEJWVjIxNFMxWkZNVFJUYkZKaFlrVndWVmR0YUV0V1JUQjNVMnhTYTJGM1BUMD0=
@@ -24,6 +25,8 @@ JTQ4JTU0JTQyJTdiJTMz...
 
 ### Step 2 – URL Decode ×1
 - `JTxx` → `%xx` → ASCII string
+
+![Burp Suite decoding steps](../screenshots/decoding-burp-steps.png)
 
 ---
 
