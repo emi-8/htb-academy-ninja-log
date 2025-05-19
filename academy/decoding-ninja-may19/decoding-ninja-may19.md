@@ -26,7 +26,7 @@ JTQ4JTU0JTQyJTdiJTMz...
 ### Step 2 – URL Decode ×1
 - `JTxx` → `%xx` → ASCII string
 
-<img src="../screenshots/decoding-burp-steps.png" width="700"/>
+<img src="screenshots/decoding-burp-steps.png" width="700"/>
 
 ---
 

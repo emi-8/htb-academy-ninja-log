@@ -16,7 +16,7 @@ This repo tracks my progress, notes, and challenge writeups — with minimal spo
 
 | Date | Module | Section | Notes |
 |------|--------|---------|-------|
-| 2025-05-19 | [Using Web Proxies: Encoding/Decoding](https://academy.hackthebox.com/module/110/section/1052) | [Writeup](academy/decoding-ninja-may19/decoding-ninja-may19.mddecoding-ninja-may19.md) | ✅ Solved with 4x Base64 + 1x URL decoding. Flag camouflaged! 🐾 |
+| 2025-05-19 | [Using Web Proxies: Encoding/Decoding](https://academy.hackthebox.com/module/110/section/1052) | [Writeup](academy/decoding-ninja-may19/decoding-ninja-may19.md) | ✅ Solved with 4x Base64 + 1x URL decoding. Flag camouflaged! 🐾 |
 
 More writeups coming soon...
 
