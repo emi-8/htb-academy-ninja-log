@@ -1,35 +1,41 @@
-# 🧠 HTB Writeups & Lab Notes
+# HTB Writeups & Learning Notes
 
-This repo contains personal writeups for Hack The Box labs and Academy content — focused on learning, experimentation, and documenting both wins and mistakes.
+This repository documents my journey through Hack The Box challenges, Academy labs, and CTF-style machines. These writeups reflect my personal learning process and may include mistakes, evolving techniques, or early-stage thinking.
 
----
-
-## 🎓 Academy Labs
-
-- [Decoding Ninja (May 19)](academy/decoding-ninja-may19/decoding-ninja-may19.md)
+The goal is to deepen my understanding of real-world cybersecurity concepts through hands-on practice, pattern recognition, and consistent documentation.
 
 ---
 
-## 🧪 HTB Labs
+## 📂 Sections
 
-### 🐣 Starting Point
-- [Three (WIP)](lab/three/three.md)
+### ▸ Academy Labs
+Writeups from structured HTB Academy learning paths, focusing on core web, Linux, and network exploitation concepts.
 
+### ▸ HTB Labs
+Walkthroughs and notes from active and retired machines, showcasing enumeration, exploitation, and privilege escalation steps.
 
----
-
-## 🐾 Cat Assistant Logs
-
-This repo is co-managed by a certified Cat Assistant™ who:
-- Typed encrypted recon commands
-- Supervised ffuf scans
-- Helped detect missing wordlist entries (by stepping on keyboard)
-- Approved shells by purring when `www-data` appeared
+### ▸ Learning Logs
+Progress updates, methodology notes, and reflections to support long-term learning and review.
 
 ---
 
-## 💡 Notes
+## 🔍 Disclaimer
 
-- 🧠 Writeups may contain mistakes or “learning moments”
-- ⚠️ Only boxes that are public/retired/allowed are included
-- 📸 Screenshots are stored alongside each writeup in `screenshots/` folders
+This repository is for **educational purposes only**. All activities were performed within authorized HTB environments. Writeups are based on personal understanding and may not reflect the most efficient or intended solutions.
+
+---
+
+## 🛠️ Tools & Skills Covered
+
+- Burp Suite, Nmap, Gobuster
+- Web exploitation & common CVEs
+- Privilege escalation techniques
+- Basic scripting (Python, Bash)
+- Pattern recognition and note-taking
+
+---
+
+## 📌 Status
+
+This is an active learning repo. Writeups will be updated, revised, or expanded as I revisit labs and strengthen techniques.
+
