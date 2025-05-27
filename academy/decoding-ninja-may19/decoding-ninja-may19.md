@@ -2,55 +2,61 @@
 
 📚 **Module:** [Using Web Proxies Encoding/Decoding](https://academy.hackthebox.com/module/110/section/1052)  
 🛡️ **Path:** Bug Bounty Hunter  
-🗓️ **Date Solved:** 2025-05-19
+🗓️ **Date Solved:** 2025-05-19  
+🔧 **Skills Demonstrated:** Multi-layer encoding recognition, Base64/URL decoding, use of Burp Suite and CyberChef, CLI efficiency, analytical problem-solving
 
 ---
 
 ## 🧠 Challenge Overview
-The goal is to recognize the encoding patterns and decode it step-by-step using Burp Suite Decoder, as demonstrated in the module.
-(You could also use tools like CyberChef to experiment with alternate decoding paths.)
+
+This HTB Academy module involves decoding a deeply encoded string using web proxy tools and pattern recognition. The goal is to decode step-by-step and recognize encoding techniques often used in bug bounty or CTF scenarios.
+
+The challenge emphasizes:
+- Identifying multiple encoding layers
+- Using built-in decoding tools (Burp Suite Decoder)
+- Optionally using CyberChef to test and chain decoding operations
+
+---
+
+### 🔐 Input String
 
 **Input:**
 VTJ4U1VrNUZjRlZXVkVKTFZrWkdOVk5zVW10aFZYQlZWRmh3UzFaR2NITlRiRkphWld0d1ZWUllaRXRXUm10M1UyeFNUbVZGY0ZWWGJYaExWa1V3ZVZOc1VsZGlWWEJWVjIxNFMxWkZNVFJUYkZKaFlrVndWVmR0YUV0V1JUQjNVMnhTYTJGM1BUMD0=
 
 ---
 
-## 🔍 Decoding Process
+## 🔍 Decoding Steps
 
 ### Step 1 – Base64 Decode ×4
-- Observed the `=` and `==` endings to detect multiple Base64 layers.
-- Decoded until output changed to this:
+- Noted the padded `==` ending (indicator of Base64)
+- Decoded recursively until readable string appeared
+
+Result after decoding:
 
 JTQ4JTU0JTQyJTdiJTMz...
 
-### Step 2 – URL Decode ×1
-- `JTxx` → `%xx` → ASCII string
+### Step 2 – URL Decode
+- Recognized the format `JTxx` → corresponds to `%xx` in URL encoding
+- Decoded to plain ASCII using Burp Suite Decoder and CyberChef
 
 <img src="screenshots/decoding-burp-steps.png" width="700"/>
 
 ---
 
-## 🏁 Final Output
-> ✅ A string in the format of `HTB{*****}` was successfully revealed.
+## ✅ Final Output
 
-> _(Intentionally hidden to avoid spoilers for others. 🫣)_  
-> _Flag visible only to Supervisor Kiki and the operator 🐾_
-
----
-
-## 💡 Lessons Learned
-- Layered encodings are common in bug bounty and CTFs — train your eyes for patterns!
-- CyberChef is an ideal tool for chaining operations.
-- Trust the hints: `=`, `%`, and `JTxx` are all clues.
+Successfully revealed a flag in the format: `HTB{*****}`  
+(The full flag has been omitted to avoid spoilers.)
 
 ---
 
-## 🐾 Supervisor Log: Kiki’s Notes
-- ✅ Watched the human type repeatedly.
-- ✅ Yawned during step 3.
-- ✅ Approved the final decode by sitting on the keyboard.
+## 💡 Key Takeaways
+
+- **Layered encodings** are common in web challenges and must be peeled back systematically.
+- Tools like **CyberChef** are highly effective for chaining decoding operations.
+- Recognizing visual encoding cues (like `=`, `%`, or `JT`) is essential for quick analysis.
 
 ---
 
-🧠 *Logged by: @emi-8*  
-🔒 *Challenge completed ethically under HTB Academy guidelines.*
+🔒 *Challenge completed under HTB Academy guidelines.*  
+✍️ *Write-up by [@emi-8](https://github.com/emi-8)*
