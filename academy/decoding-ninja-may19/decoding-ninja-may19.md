@@ -3,7 +3,7 @@
 📚 **Module:** [Using Web Proxies Encoding/Decoding](https://academy.hackthebox.com/module/110/section/1052)  
 🛡️ **Path:** Bug Bounty Hunter  
 🗓️ **Date Solved:** 2025-05-19  
-🔧 **Skills Demonstrated:** Multi-layer encoding recognition, Base64/URL decoding, use of Burp Suite and CyberChef, CLI efficiency, analytical problem-solving
+🔧 **Skills Demonstrated:** Multi-layer encoding recognition, Base64/URL decoding, use of Burp Suite, CLI efficiency, analytical problem-solving
 
 ---
 
