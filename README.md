@@ -1,6 +1,6 @@
-# HTB Writeups & Learning Notes
+# HTB & THM Writeups
 
-This repository documents my journey through Hack The Box challenges, Academy labs, and CTF-style machines. These writeups reflect my personal learning process and may include mistakes, evolving techniques, or early-stage thinking.
+This repository documents my journey through Hack The Box challenges, Academy labs, TryHackMe rooms and CTF-style machines. These writeups reflect my personal learning process and may include mistakes, evolving techniques, or early-stage thinking.
 
 The goal is to deepen my understanding of real-world cybersecurity concepts through hands-on practice, pattern recognition, and consistent documentation.
 
@@ -16,6 +16,10 @@ Walkthroughs and notes from active and retired machines, showcasing enumeration,
 
 ### ▸ Learning Logs
 Progress updates, methodology notes, and reflections to support long-term learning and review.
+
+### ▸ THM Writeups
+- [Race Conditions](./THM/race-conditions.md) 🏁💰
+
 
 ---
 
